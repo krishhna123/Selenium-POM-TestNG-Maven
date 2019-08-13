@@ -1,0 +1,44 @@
+package com.crm.qa.testcases;
+
+import org.testng.Assert;
+import org.testng.annotations.*;
+
+import com.crm.qa.base.TestBase;
+import com.crm.qa.pages.HomePage;
+
+public class FlightTestCases extends TestBase {
+
+	HomePage homepage;
+
+	public FlightTestCases() {
+		super();
+	}
+
+	/*
+	 * @BeforeTest public void setExtentReport() { setExtend(); }
+	 */
+
+	@BeforeMethod
+	public void setUp() {
+		initializaton();
+		homepage = new HomePage();
+	}
+
+	@Test
+	public void TC001_CheckifLogoisPresent() {
+		boolean flag = homepage.isLogoDisplayed();
+		Assert.assertTrue(flag);
+	}
+
+	@Test
+	public void TC002_SelectFlightOption() {
+		homepage.selectFlightOption();
+	}
+
+	@AfterMethod
+	public void tearDown() {
+		// FormatResult();
+		tearDownMain();
+	}
+
+}

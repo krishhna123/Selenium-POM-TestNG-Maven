@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="170450" started-at="2019-06-10T20:00:15Z" finished-at="2019-06-10T20:03:05Z">
+    <groups>
+    </groups>
+    <test name="Testing" duration-ms="170450" started-at="2019-06-10T20:00:15Z" finished-at="2019-06-10T20:03:05Z">
+      <class name="com.crm.qa.testcases.SearchFlightTestCases">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.SearchFlightTestCases@234bef66]" name="setUp" is-config="true" duration-ms="23009" started-at="2019-06-10T13:01:59Z" finished-at="2019-06-10T13:02:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC001_VerifyHeaderContent()[pri:0, instance:com.crm.qa.testcases.SearchFlightTestCases@234bef66]" name="TC001_VerifyHeaderContent" duration-ms="153" started-at="2019-06-10T13:02:22Z" finished-at="2019-06-10T13:02:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_VerifyHeaderContent -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.SearchFlightTestCases@234bef66]" name="tearDown" is-config="true" duration-ms="5380" started-at="2019-06-10T13:02:22Z" finished-at="2019-06-10T13:02:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.SearchFlightTestCases@234bef66]" name="setUp" is-config="true" duration-ms="28261" started-at="2019-06-10T13:02:27Z" finished-at="2019-06-10T13:02:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC002_SearchFligh()[pri:0, instance:com.crm.qa.testcases.SearchFlightTestCases@234bef66]" name="TC002_SearchFligh" duration-ms="4590" started-at="2019-06-10T13:02:55Z" finished-at="2019-06-10T13:03:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_SearchFligh -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.SearchFlightTestCases@234bef66]" name="tearDown" is-config="true" duration-ms="5198" started-at="2019-06-10T13:03:00Z" finished-at="2019-06-10T13:03:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.SearchFlightTestCases -->
+      <class name="com.crm.qa.testcases.FlightTestCases">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.FlightTestCases@337d0578]" name="setUp" is-config="true" duration-ms="44096" started-at="2019-06-10T13:00:15Z" finished-at="2019-06-10T13:00:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC001_CheckifLogoisPresent()[pri:0, instance:com.crm.qa.testcases.FlightTestCases@337d0578]" name="TC001_CheckifLogoisPresent" duration-ms="2824" started-at="2019-06-10T13:00:59Z" finished-at="2019-06-10T13:01:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_CheckifLogoisPresent -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.FlightTestCases@337d0578]" name="tearDown" is-config="true" duration-ms="9978" started-at="2019-06-10T13:01:02Z" finished-at="2019-06-10T13:01:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.FlightTestCases@337d0578]" name="setUp" is-config="true" duration-ms="21625" started-at="2019-06-10T13:01:12Z" finished-at="2019-06-10T13:01:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC002_SelectFlightOption()[pri:0, instance:com.crm.qa.testcases.FlightTestCases@337d0578]" name="TC002_SelectFlightOption" duration-ms="18708" started-at="2019-06-10T13:01:33Z" finished-at="2019-06-10T13:01:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_SelectFlightOption -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.FlightTestCases@337d0578]" name="tearDown" is-config="true" duration-ms="6582" started-at="2019-06-10T13:01:52Z" finished-at="2019-06-10T13:01:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.FlightTestCases -->
+    </test> <!-- Testing -->
+  </suite> <!-- Suite -->
+</testng-results>

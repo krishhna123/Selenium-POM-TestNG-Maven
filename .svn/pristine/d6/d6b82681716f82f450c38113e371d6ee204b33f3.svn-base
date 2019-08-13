@@ -1,0 +1,28 @@
+<h2>Methods run, sorted chronologically</h2><h3>&gt;&gt; means before, &lt;&lt; means after</h3><p/><br/><em>Suite</em><p/><small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table border="1">
+<tr><th>Time</th><th>Delta (ms)</th><th>Suite<br>configuration</th><th>Test<br>configuration</th><th>Class<br>configuration</th><th>Groups<br>configuration</th><th>Method<br>configuration</th><th>Test<br>method</th><th>Thread</th><th>Instances</th></tr>
+<tr bgcolor="e6e9c3">  <td>19/06/10 04:51:08</td>   <td>0</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;FlightTestCases.setUp()[pri:0, instance:com.crm.qa.testcases.FlightTestCases@3532ec19]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@267760927</td>   <td></td> </tr>
+<tr bgcolor="e6e9c3">  <td>19/06/10 04:52:04</td>   <td>55321</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="FlightTestCases.TC001_CheckifLogoisPresent()[pri:0, instance:com.crm.qa.testcases.FlightTestCases@3532ec19]">TC001_CheckifLogoisPresent</td> 
+  <td>main@267760927</td>   <td></td> </tr>
+<tr bgcolor="e6e9c3">  <td>19/06/10 04:52:05</td>   <td>56149</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;FlightTestCases.tearDown()[pri:0, instance:com.crm.qa.testcases.FlightTestCases@3532ec19]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@267760927</td>   <td></td> </tr>
+<tr bgcolor="e6e9c3">  <td>19/06/10 04:52:21</td>   <td>72482</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;FlightTestCases.setUp()[pri:0, instance:com.crm.qa.testcases.FlightTestCases@3532ec19]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@267760927</td>   <td></td> </tr>
+<tr bgcolor="e6e9c3">  <td>19/06/10 04:52:41</td>   <td>93024</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="FlightTestCases.TC002_SelectFlightOption()[pri:0, instance:com.crm.qa.testcases.FlightTestCases@3532ec19]">TC002_SelectFlightOption</td> 
+  <td>main@267760927</td>   <td></td> </tr>
+<tr bgcolor="e6e9c3">  <td>19/06/10 04:52:59</td>   <td>110591</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;FlightTestCases.tearDown()[pri:0, instance:com.crm.qa.testcases.FlightTestCases@3532ec19]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@267760927</td>   <td></td> </tr>
+<tr bgcolor="b6dfcb">  <td>19/06/10 04:53:08</td>   <td>119453</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;SearchFlightTestCases.setUp()[pri:0, instance:com.crm.qa.testcases.SearchFlightTestCases@5c3bd550]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@267760927</td>   <td></td> </tr>
+<tr bgcolor="b6dfcb">  <td>19/06/10 04:53:42</td>   <td>154021</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="SearchFlightTestCases.TC001_VerifyHeaderContent()[pri:0, instance:com.crm.qa.testcases.SearchFlightTestCases@5c3bd550]">TC001_VerifyHeaderContent</td> 
+  <td>main@267760927</td>   <td></td> </tr>
+<tr bgcolor="b6dfcb">  <td>19/06/10 04:53:43</td>   <td>154212</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;SearchFlightTestCases.tearDown()[pri:0, instance:com.crm.qa.testcases.SearchFlightTestCases@5c3bd550]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@267760927</td>   <td></td> </tr>
+<tr bgcolor="b6dfcb">  <td>19/06/10 04:53:47</td>   <td>158555</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;SearchFlightTestCases.setUp()[pri:0, instance:com.crm.qa.testcases.SearchFlightTestCases@5c3bd550]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@267760927</td>   <td></td> </tr>
+<tr bgcolor="b6dfcb">  <td>19/06/10 04:54:16</td>   <td>187663</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="SearchFlightTestCases.TC002_SearchFligh()[pri:0, instance:com.crm.qa.testcases.SearchFlightTestCases@5c3bd550]">TC002_SearchFligh</td> 
+  <td>main@267760927</td>   <td></td> </tr>
+<tr bgcolor="b6dfcb">  <td>19/06/10 04:54:20</td>   <td>191998</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;SearchFlightTestCases.tearDown()[pri:0, instance:com.crm.qa.testcases.SearchFlightTestCases@5c3bd550]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@267760927</td>   <td></td> </tr>
+</table>
