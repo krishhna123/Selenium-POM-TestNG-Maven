@@ -20,7 +20,7 @@ public class TestUtils {
 
 	public static final long IMPLICIT_WAIT = 10;
 
-	public static final String WORKSAPCE_PATH = "C://Users//Gorya//Desktop//Krishna_study//Workspace//FressCRMAutomation";
+	public static final String WORKSAPCE_PATH = "C://Users//Workspace//FressCRMAutomation"; // provide path of workspace from your local machine
 
 	public static final String SCREENSHOT_PATH = WORKSAPCE_PATH + "//Screenshot//";
 
