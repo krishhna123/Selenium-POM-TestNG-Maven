@@ -6,7 +6,6 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -15,7 +14,6 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.log4testng.Logger;
 
-import com.crm.qa.utilities.LoggerClass;
 import com.crm.qa.utilities.SeleniumActions;
 import com.crm.qa.utilities.TestUtils;
 import com.crm.qa.utilities.WebDriverListener;
@@ -53,7 +51,6 @@ public class TestBase {
 	}
 
 	protected static void initializaton() {
-		startLogger();
 		String browserName = properties.getProperty("browser");
 		driver = getDriver(browserName);
 		log.info(browserName + " is configured");
@@ -89,12 +86,6 @@ public class TestBase {
 			return new InternetExplorerDriver();
 		}
 		return null;
-	}
-
-	private static void startLogger() {
-		log = Logger.getLogger(LoggerClass.class);
-		PropertyConfigurator.configure(TestUtils.WORKSAPCE_PATH + "\\src\\main\\resources\\log4j.properties");
-
 	}
 
 	public void tearDownMain() {

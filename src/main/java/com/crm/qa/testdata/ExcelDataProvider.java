@@ -25,7 +25,7 @@ public class ExcelDataProvider {
 
 	public static void readexcelData() {
 		try {
-			file = new File("C:\\Users\\Gorya\\Desktop\\Krishna_study\\test.xlsx");
+			file = new File("\\test.xlsx");
 			input = new FileInputStream(file);
 			workbook = new XSSFWorkbook(input);
 			sheet = workbook.getSheet("test");
@@ -66,7 +66,7 @@ public class ExcelDataProvider {
 	private static void readcsvData() throws IOException {
 		String line = "";
 		List<String> list = new ArrayList<String>();
-		BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\Gorya\\Desktop\\Krishna_study\\test.csv"));
+		BufferedReader br = new BufferedReader(new FileReader("\\test.csv"));
 		while ((line = br.readLine()) != null) {
 			list.add(line);
 		}
